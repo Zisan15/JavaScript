@@ -12,7 +12,7 @@
 
     <script>
         
-        var myName= "Osman";/* var -> değişken olan variable sabit değil, sadece string bir değer tutmaz*/
+    /*  var myName= "Osman"; var -> değişken olan variable sabit değil, sadece string bir değer tutmaz
         console.log(myName);
 
         var surName;
@@ -25,7 +25,9 @@
         var isHappy=false;
         console.log(isHappy);
         sayi=45;
-        console.log(sayi);
+        console.log(sayi);*/
+
+        
 
 
 
@@ -37,15 +39,34 @@
         let x3=true;
         let x4;
         let x5="Osman";/* let -> ne verirsen ver herhangi bir sıkıntı yok*/
+        let x6=null;
+        let x7="null12346";
+        let x8="34"*2;
 
 
-        const num=78;
+       // const num=78;
         
         // num=69; const -> sabit değer olur, Javadaki "final" gibi 
         
         /* const num2; 
             => sabitlerde mutlaka değer verilmelidir aksi  taktirde "Uncaught SyntaxError: Missing initializer" şeklinde hata alırız
         */ 
+
+        console.log(x1,typeof(x1), isNaN(x1)); /*data tipini öğrenmek için bu şekilde yapıyoruz 32 'number' */ 
+        console.log(x2, typeof x2,isNaN (x2));  // typeof x2 -> 23 string => data type'ını öğrendim  , isNaN (x2) variable'a bakmayacak değişkenin değerine bakar string mi değil mi 
+        console.log(x3, typeof x3, isNaN(x3)); //true 'boolean'
+        console.log(x4, typeof x4, isNaN(x4)); //undefined 'undefined'
+        console.log(x5, typeof x5, isNaN(x5)); //Osman string
+        console.log(x6, typeof x6,isNaN(x6)); //null 'object' null bir object'tir bundan dolayı nullın typeof'u objecttir
+        console.log(x7, typeof x7,isNaN(x7));
+        console.log(x8, typeof x8,isNaN(x8));//68 'number' javada concat yapar,ama burda çarpma işlemi yapar
+
+
+
+
+
+
+
 
 
          
