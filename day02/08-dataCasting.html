@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Casting</title>
+</head>
+<body>
+    
+    <script>
+
+        let yas="56";
+        console.log(yas,typeof yas);
+      
+        yas=Number(yas)
+        console.log(yas,typeof yas); //56 'number' stringi number'a dönüştürdü
+
+        //let age=prompt("yasinizi giriniz");
+       // console.log(age,typeof(age)); //prompt'tan gelen değerler string olarak gelir.
+
+       /*  age=Number(age);
+        console.log(age,typeof(age));  */
+
+        let kdv="20";
+        kdv=parseInt(kdv);
+        console.log(kdv,typeof(kdv)); //20 'number' string değeri parseInt ile number'a çevirdim
+
+       // parseFloat() -> ondalikli sayıya cevirmek için  kullanılır.
+
+       let ötv="20ABC";
+       ötv=parseInt(ötv);
+       console.log(ötv,typeof(ötv));//20 'number'
+       
+       //bu işlemin sonucunda js hata vermez işlemin sonucunu "Infinity" olarak verir
+       let mtv=5/0;
+       console.log(mtv); //Infinity . javada ArithmeticException
+
+       let z=30;
+       console.log(z,typeof(z));//30 'number'
+       z=String(z);
+       console.log(z,typeof(z));//30 string 
+
+
+       let y=45;
+       console.log(y,typeof(y));//45 'number'
+       y=y.toString();
+       console.log(y,typeof(y));//45 string bu şekilde de string'e cevrildi
+
+       var binaryStr=34;
+       var binaryStr=binaryStr.toString(2);
+       console.log(binaryStr);//100010 -> 34'un binary code karşılığını verdi toString(2) binary code a göre yazdırır.
+
+       var hex=12;
+       var hex=hex.toString(16);
+       console.log(hex);//c 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
