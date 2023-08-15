@@ -22,7 +22,11 @@ console.log(h1El.innerText);
 console.log(h1El.innerHTML);
 
 h1El.innerText = `<span>hello</span>`;
-h1El.innerHTML = `<span style="color:red">hello</span>`;//html sayfasında yapacağım düzenleyeceğim şeyleri orda yapıyormuşum gibi innerHTML yazarak yapıyorum
+h1El.innerHTML = `<span style="color:red, display:none">hello</span>`;//html sayfasında yapacağım düzenleyeceğim şeyleri orda yapıyormuşum gibi innerHTML yazarak yapıyorum
+console.log(h1El.innerText);
+console.log(h1El.innerHTML);
+console.log(h1El.textContent);
+
 
 menuItem3.innerText = "Yeni icerik";
 
