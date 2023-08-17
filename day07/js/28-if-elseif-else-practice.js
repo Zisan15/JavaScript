@@ -1,5 +1,5 @@
 const priceInputEl = document.querySelector('#priceInput');
-const resultEl = document.getElementById("result");
+const resultEl = document.getElementById("result"); // getElementById -> ID özniteliğinin belirtilen değerine sahip ilk nesneye bir başvuru döndürür.
 
 function calculateDiscount() {
     let result = +priceInputEl.value;
