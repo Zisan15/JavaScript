@@ -25,7 +25,7 @@ function calculate() {
         toplam = toplam + sonBasamak;
         // sayida degisiklik yap
         console.log();
-        sayi = Math.floor(sayi / 10);
+        sayi = Math.floor(sayi / 10); // floor -> sayının virgüllü kısmını tabana yuvarlıyor.
     }
 
     alert(toplam);
